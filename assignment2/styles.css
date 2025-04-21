@@ -61,10 +61,12 @@ table td{
     text-align: start;
 }
 
-li{ /*link is not appearing as how it should correctly*/
-    color: #93d0f4;
+/* Links styling */
+a {
+    color: #0079c1;
     text-decoration: none;
 }
+
 
 footer{
     background-color: #93d0f4;
