@@ -17,7 +17,7 @@ const disneyDataNo = {
 	volume: parseFloat(disneyData['volume'])
 };
 
-/*Application of 'if' followed by 'else if' then 'else', I did not use 'else' for 'bearish' and 'bullish' as there will be a conflicting argument*/
+/*Application of 'if' followed by 'else if', I did not use 'else' for 'bearish' and 'bullish' as there will be a conflicting argument*/
 if (disneyDataNo['close'] > disneyDataNo['open'] && disneyDataNo['volume'] > 100000){
 	console.log('Strong Bullish')
 }
